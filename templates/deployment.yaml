@@ -51,9 +51,9 @@ spec:
         {{- if .Values.clusterPKI }}
         - name: trusted-ca
           configMap:
-            name: trusted-ca
+            name: openshift-service-ca.crt
             items:
-              - key: ca-bundle.crt
+              - key: service-ca.crt
                 path: tls-ca-bundle.pem
         {{- end }}
 
