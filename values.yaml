@@ -91,7 +91,7 @@ cpuLimit: "250m"
 
 # Enable custom cluster PKI loading
 # https://docs.openshift.com/container-platform/4.6/networking/configuring-a-custom-pki.html
-clusterPKI: false
+clusterPKI: true
 
 # You can inject arbitrary environment variables here:
 runnerEnv:
