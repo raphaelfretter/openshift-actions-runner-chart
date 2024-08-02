@@ -53,7 +53,7 @@ spec:
           configMap:
             name: openshift-service-ca.crt
             items:
-              - key: service-ca.crt
+              - key: ca-bundle.crt
                 path: tls-ca-bundle.pem
         {{- end }}
 
